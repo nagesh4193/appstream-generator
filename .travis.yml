@@ -3,6 +3,10 @@ language: d
 sudo: required
 dist: trusty
 
+arch:
+  - amd64
+  - ppcle64
+
 services:
   - docker
 
